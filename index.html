@@ -11,16 +11,16 @@
 
   <section class="ucapan">
     <div class="ucapan-card">
-      <h2>Ucapan Spesial</h2>
-      <p>SELAAMAT ULANG TAHUNN SAAYAANGKUUU 💖</p>
-      <p>BAYIIIKUUUUU CANTIK YANG PINTAR DAN LUCU DAN MUNGILL INII 💫</p>
-      <p>TIUPP LILINNYA DI BAWAH INIII YAA SAAAAYAAANGG 🎂 DAN DOA YG TERBAIK UNTUK KAMUUU !!!!!!!! WISH U ALL THE BEST!!! </p>
+      <h2 style="color: rgb(62, 62, 62);">Ucapan Spesial</h2>
+      <p style="color: black;">SELAAMATTTTTTTTTTTTTTT PAGIIIIIIIIIIII MY BOCILLL YG WUCHUUUUUUUUU CEMANGATT CEMANGATTSS FOR TUDEII MY BAYIIII</p>
+       <p style="color: black;">BAYIIIKUUUUU CANTIK YANG PINTAR DAN LUCU CEYAMATTTT MENGINJAK DI UMUR 21 YAA SAAAYAAANG , WISH U ALL THE BEST SEMOGA JADI PRIBADI YG LEBIH DEWASA YAA SAAAYAAANGKUU💫</p>
+       <p style="color: black;">TIUPP LILINNYA DI BAWAH INIII YAA SAAAAYAAANGGKUU CANTIKKUUUU 🎂</p>
     </div>
   </section>
 <section class="scroll-section">
   <div class="center-container">
     <button class="button-blur" onclick="document.getElementById('kue').scrollIntoView({ behavior: 'smooth' })">
-      🎂 Lihat Kuee nya yuk!
+      🎂 Happy Birthday!
     </button>
   </div>
 </section>
@@ -139,11 +139,26 @@
       </svg>
     </label>
   </section>
-<!-- SCRIPT -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/MorphSVGPlugin.min.js"></script>
-<script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
-<script src="script.js"></script>
+  
+
+  
+  <!-- SCRIPT -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+  <script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/MorphSVGPlugin3.min.js"></script>
+  <script src="script.js"></script>
+<script>
+  function openGift() {
+    const gift = document.querySelector('.gift');
+    gift.classList.toggle('open');
+  }
+</script>
+<script>
+  function bukaKado() {
+    const box = document.querySelector(".kado-box");
+    box.classList.toggle("buka");
+  }
+</script>
 
 </body>
 </html>
