@@ -208,7 +208,7 @@ section.ucapan {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(120deg, #ade8f4, #023e8a); /* estetik */
+  background: linear-gradient(120deg, #7df9cd, #85edff); /* estetik */
 }
 
 section.kue {
@@ -216,14 +216,14 @@ section.kue {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #caf0f8; /* kontras agar beda section */
+  background: #62b6b7; /* kontras agar beda section */
 }
 .scroll-section {
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #00b4d8, #caf0f8); /* Sesuaikan dengan tema */
+  background: linear-gradient(135deg, #affffe, #715249); /* Sesuaikan dengan tema */
 }
 
 .center-container {
